@@ -9,6 +9,8 @@ find_package(proxygen CONFIG REQUIRED)
 
 set(AppTarget TodoServer)
 add_executable(${AppTarget}
+    Arguments.cpp
+    Arguments.h
     HelloHandler.cpp
     HelloHandler.h
     HelloHandlerFactory.cpp
